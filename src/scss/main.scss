@@ -1,0 +1,26 @@
+@import "./mixins";
+@import "./base";
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: 15px auto;
+  padding: 0 15px;
+  max-width: 1230px;
+}
+
+.out-1 {
+  background-color: aqua;
+}
+
+.bg-2 {
+  border: 2px red solid;
+}
+
+.bg-7 {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}

@@ -6,5 +6,8 @@ export default defineConfig({
     port: 3000,
     open: true,
   },
-  build: "../disk",
+  build:{
+    outDir: "../disk",
+    emptyOutDir: true,
+  },
 })
